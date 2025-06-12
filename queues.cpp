@@ -55,3 +55,11 @@ public:
             front = -1;
             rear = -1;
         }
+        else
+        {
+            if (front == max - 1)
+                front = 0;
+            else
+                front = front + 1;
+        }
+    }
