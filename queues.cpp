@@ -25,3 +25,8 @@ public:
         {
             cout << "\nQueues overflow\n";
             return;
+        }
+        if (front == -1)
+        {
+            front = 0;
+            rear = 0;
