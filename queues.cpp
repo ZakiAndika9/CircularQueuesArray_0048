@@ -49,3 +49,9 @@ public:
             return;
         }
         cout << "\nthe element terhapus " << queues_array[front] << "\n";
+
+        if (front == rear)
+        {
+            front = -1;
+            rear = -1;
+        }
